@@ -1,0 +1,40 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+body{
+	font-family: 'Playfair Display', serif;
+}
+/*header start*/
+header{
+	margin: 35px 0;
+}
+.nav_bar{
+	padding: 0;
+}
+.menu ul li a{
+	font-size: 16px;
+    color: #777777!important;
+    padding-right: 100px !important;
+    transition: .5s;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: #000000 !important;
+}
+/*header end*/
+/*slider start*/
+.car_in{
+	bottom: 6px;
+}
+.car_in li{
+	width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.ni{
+    background-color: #000000;
+}
+/*slider end*/
